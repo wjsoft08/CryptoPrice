@@ -1,4 +1,4 @@
-package com.example.causualninja08.cryptoprice;
+package com.cryptoPrice.causualninja08.cryptoprice;
 
 
 import android.content.Context;
@@ -18,7 +18,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
 

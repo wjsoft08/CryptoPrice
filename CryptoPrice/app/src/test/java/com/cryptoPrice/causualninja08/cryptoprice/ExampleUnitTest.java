@@ -1,4 +1,4 @@
-package com.example.causualninja08.cryptoprice;
+package com.cryptoPrice.causualninja08.cryptoprice;
 
 import org.junit.Test;
 

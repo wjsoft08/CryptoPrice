@@ -1,4 +1,4 @@
-package com.example.causualninja08.cryptoprice;
+package com.cryptoPrice.causualninja08.cryptoprice;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

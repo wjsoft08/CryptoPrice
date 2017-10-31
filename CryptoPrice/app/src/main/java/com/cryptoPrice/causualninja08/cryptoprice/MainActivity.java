@@ -1,4 +1,4 @@
-package com.example.causualninja08.cryptoprice;
+package com.cryptoPrice.causualninja08.cryptoprice;
 
 import android.app.ProgressDialog;
 import android.support.v4.view.MenuItemCompat;
@@ -18,9 +18,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -55,10 +53,10 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713");
+       /* MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713");
         mAdview = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).build();
-        mAdview.loadAd(adRequest);
+        mAdview.loadAd(adRequest);*/
 
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
